@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+}
+
+.content-one {
+    display: flex;
+}
+
+.title {
+    max-width: 350px
+}
+
+.main-image > img {
+    width: 350px;
+}
+
+.two-header {
+    text-align: center;
+    border: 1px solid blue;
+}
