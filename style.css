@@ -87,17 +87,22 @@ button {
 .content-two {
     flex: 1 0 100vw;
     order: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .two-header {
     text-align: center;
-    border: 1px solid blue;
+    font-weight: 700;
+    font-size: 18px;
 }
 
 .images-container {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
+    font-size: 12px;
 }
 
 .image {
@@ -108,24 +113,36 @@ button {
     width: 100px;
     height: 100px;
     object-fit: cover;
+    border: 3px solid #1F2937;
+    border-radius: 10px;
 }
 
 .image2 {
     width: 100px;
     height: 100px;
     object-fit: cover;
+    border: 3px solid #1F2937;
+    border-radius: 10px;
 }
 
 .image3 {
     width: 100px;
     height: 100px;
     object-fit: cover;
+    border: 3px solid #1F2937;
+    border-radius: 10px;
 }
 
 .image4 {
     width: 100px;
     height: 100px;
     object-fit: cover;
+    border: 3px solid #1F2937;
+    border-radius: 10px;
+}
+
+.image-text {
+    text-align: center;
 }
 
 .content-three {
