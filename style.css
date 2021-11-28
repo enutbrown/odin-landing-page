@@ -1,5 +1,6 @@
 body {
-    height: 100VH;
+    margin: 0;
+    height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -143,4 +144,7 @@ button {
 .footer {
     background-color: #1F2937;
     color: #F9FAF8;
+    padding: 20px 0;
+    justify-content: center;
+    text-align: center;
 }
