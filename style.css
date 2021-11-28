@@ -3,8 +3,25 @@ body {
     flex-direction: column;
 }
 
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .header {
+    background-color: #1F2937;
     display: flex;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.header-links {
+    margin: auto;
 }
 
 .content-one {
@@ -22,4 +39,33 @@ body {
 .two-header {
     text-align: center;
     border: 1px solid blue;
+}
+
+.image1 {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.image2 {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.image3 {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.image4 {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
