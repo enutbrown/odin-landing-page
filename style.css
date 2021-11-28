@@ -1,6 +1,8 @@
 body {
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
+    border: 3px solid yellow;;
 }
 
 a {
@@ -8,6 +10,16 @@ a {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+button {
+    background-color: #3882F6;
+}
+
+.content-container {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+} 
 
 .header {
     background-color: #1F2937;
@@ -26,6 +38,8 @@ a {
 
 .content-one {
     display: flex;
+    flex: 1 0 100vw;
+    order: 1;
 }
 
 .title {
@@ -34,6 +48,11 @@ a {
 
 .main-image > img {
     width: 350px;
+}
+
+.content-two {
+    flex: 1 0 100vw;
+    order: 2;
 }
 
 .two-header {
@@ -63,6 +82,19 @@ a {
     width: 100px;
     height: 100px;
     object-fit: cover;
+}
+
+.content-three {
+    background-color: #E5E7EB;
+    flex: 1 0 100vw;
+    order: 3;
+}
+
+.content-four {
+    display: flex;
+    background-color: #3882F6;
+    flex: 1 0 100vw;
+    order: 4;
 }
 
 .footer {
