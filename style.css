@@ -49,6 +49,7 @@ button {
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
+    gap: 15px;
 }
 
 .left-one {
