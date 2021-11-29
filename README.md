@@ -5,3 +5,5 @@ Keyboard: Marta Branco https://www.pexels.com/photo/closeup-photo-of-black-and-b
 Astronaut: pizar_kestrap https://pixabay.com/photos/astronaut-moon-space-nasa-planet-4106766/
 Laptop: Skitterphoto https://pixabay.com/photos/computer-laptop-work-place-mouse-2982270/
 Superhero: alan9187 https://pixabay.com/illustrations/superhero-girl-speed-runner-534120/
+
+Title quote: "Eliminate all doubt and replace it with the full expectation that you will receive what you are asking for." - by Rhonda Byrne
