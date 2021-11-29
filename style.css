@@ -30,7 +30,7 @@ button {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 700;
-    padding: 20px 0 20px 200px;  
+    padding: 20px 0 20px 100px;  
 }
 
 .header-links {
@@ -150,13 +150,57 @@ button {
     background-color: #E5E7EB;
     flex: 1 0 100vw;
     order: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.three-container {
+   max-width: 50%;
+   border: 1px solid green;
+   display: flex;
+   flex-direction: column;
+}
+
+.quote-text {
+    font-size: 22px;
+    font-style: italic;
+    border: 1px solid purple;
+}
+
+.quote-person {
+    margin-top: 10px;
+    margin-left: auto;
+    font-weight: 700;
 }
 
 .content-four {
     display: flex;
+    justify-content: space-around;
     background-color: #3882F6;
-    flex: 1 0 100vw;
+    flex: 0 0 80vw;
     order: 4;
+    margin: 60px 80px;
+}
+
+.text-button {
+    display: flex;
+    align-items: center;
+}
+
+.four-text {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.sign-up-button2 {
+    padding: 4px 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    align-self: center;
+    margin-left: 30px;
 }
 
 .footer {
