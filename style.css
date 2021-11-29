@@ -7,11 +7,11 @@ body {
 
 a {
     text-decoration: none;
-    color: #E5E7EB;
+    color: #45a29e;
 }
 
 button {
-    background-color: #3882F6;
+    background-color: #45a29e;
 }
 
 .content-container {
@@ -21,14 +21,14 @@ button {
 } 
 
 .header {
-    background-color: #1F2937;
+    background-color: #1f2833;
     display: flex;
     align-items: center;
 }
 
 .logo {
     font-size: 24px;
-    color: #F9FAF8;
+    color: #45a29e;
     font-weight: 700;
     padding: 20px 0 20px 100px;  
 }
@@ -48,7 +48,7 @@ button {
     order: 1;
     justify-content: center;
     align-items: center;
-    background-color: #1F2937;
+    background-color: #1f2833;
     gap: 15px;
 }
 
@@ -114,7 +114,7 @@ button {
     width: 100px;
     height: 100px;
     object-fit: cover;
-    border: 3px solid #1F2937;
+    border: 3px solid #45A29E;
     border-radius: 10px;
 }
 
@@ -122,7 +122,7 @@ button {
     width: 100px;
     height: 100px;
     object-fit: cover;
-    border: 3px solid #1F2937;
+    border: 3px solid #45A29E;
     border-radius: 10px;
 }
 
@@ -130,7 +130,7 @@ button {
     width: 100px;
     height: 100px;
     object-fit: cover;
-    border: 3px solid #1F2937;
+    border: 3px solid #45A29E;
     border-radius: 10px;
 }
 
@@ -138,7 +138,7 @@ button {
     width: 100px;
     height: 100px;
     object-fit: cover;
-    border: 3px solid #1F2937;
+    border: 3px solid #45A29E;
     border-radius: 10px;
 }
 
@@ -147,7 +147,7 @@ button {
 }
 
 .content-three {
-    background-color: #E5E7EB;
+    background-color: #C5C6C7;
     flex: 1 0 100vw;
     order: 3;
     display: flex;
@@ -164,19 +164,20 @@ button {
 .quote-text {
     font-size: 22px;
     font-style: italic;
-
+    color: #1f2833;
 }
 
 .quote-person {
     margin-top: 10px;
     margin-left: auto;
     font-weight: 700;
+    color: #1f2833;
 }
 
 .content-four {
     display: flex;
     justify-content: space-around;
-    background-color: #3882F6;
+    background-color: #45a29e;
     flex: 1 0 80%;
     order: 4;
     margin: 60px 150px;
@@ -209,8 +210,8 @@ button {
 }
 
 .footer {
-    background-color: #1F2937;
-    color: #F9FAF8;
+    background-color: #1f2833;
+    color: #45A29E;
     padding: 20px 0;
     justify-content: center;
     text-align: center;
